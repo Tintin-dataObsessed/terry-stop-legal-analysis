@@ -44,6 +44,10 @@ Model Evaluation:
 - Both models achieved an accuracy of approximately 0.48.
 - The confusion matrices revealed: High precision for the "Not Arrested" class and High recall for the "Arrested" class.
 
+
+# Recommendations
+To help review and update policies, to detect bias patterns, and in Training and Awareness for the community.
+
 # Conclusion
 
 The data was highly imbalanced however, considering how this is based on arrests in the Chicago area and the nature of police work ,it is not considered abnormal to have a large number of Not Arrested in favour of Arrested.
