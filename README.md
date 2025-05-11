@@ -52,7 +52,7 @@ To help review and update policies, to detect bias patterns, and in Training and
 
 The data was highly imbalanced however, considering how this is based on arrests in the Chicago area and the nature of police work ,it is not considered abnormal to have a large number of Not Arrested in favour of Arrested.
 
-The goal of this project was to develop a model capable of accurately predicting whether a Terry Stop would result in an arrest. After addressing the imbalance, the Logistic Regression model performed best.
+Given the context of predictive policing and civil rights, precision and recall for the Arrested are our most important metrics. Recall must be maximized to understand all potential arrests, but also to improve precision to avoid falsely predicting arrests, which could lead to bias.
 
 The evaluation metrics showed the model predicted "Not Arrested" cases well, with no false negatives and a high number of true negatives. However, it struggled to correctly identify actual arrests, resulting in a low number of true positives and a high number of false negatives. This means the model made both Type I errors (false positives) and Type II errors (false negatives), although Type II errors were more pronounced.
 
